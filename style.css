@@ -1,0 +1,496 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: "Archivo Black", sans-serif;
+    color:#D01257;
+    background-color:#0F1021;
+}
+.navbar{
+      background-color: black;
+      height: 60px;
+      padding-top: 30px;
+      position: fixed;
+}
+ul,li,h1{
+    display: inline;
+}
+ul{
+    margin-left: 500px;
+}
+li{
+    padding-left: 15px;
+}
+nav h1{
+    padding-left: 8px;
+}
+
+.aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px;
+    justify-content: space-around;
+}
+.description{
+    color: rgba(245, 239, 239, 0.619);
+    flex-basis: 50%;
+    margin-top: 40px;
+    padding: 30px;
+}
+.description h1{
+    color: white;
+    flex-basis: 50%;
+    margin-top: 40px;
+    padding: 30px;
+}
+#des{
+    padding:20px;
+}
+.aboutme img{
+    border-radius: 100%;
+    border: 2px solid #D01257;
+    margin-top: 40px;
+}
+#name{
+    margin-top: 40px;
+}
+.button{
+    background-color: #D01257;
+    border: 2px solid #D01257;
+    height: 60px;
+    width: 120px;
+    border-radius: 60px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.skillboxone{
+    display: flex;
+ justify-content: space-evenly;
+    
+}
+.skillboxtwo{
+    padding: 40px;
+    color: white;
+    
+}
+.skillboxthree{
+    padding: 40px;
+    color: white;
+ 
+}
+.skills{
+    text-align: center;
+}
+.skills h1{
+     color: white;
+}
+span{
+    position: relative;
+    bottom: 10px;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color:#D01257;
+}
+a:hover{
+    color: white;
+}
+.prworkbox h2{
+    color: #D01257;
+    border: #D01257 solid 2px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.prworkbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.prworks{
+    text-align: center;
+    margin-top: 30px;
+}
+.prworks h1{
+    color: white;
+}
+.intern{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 50px;
+}
+.intern h1,h4{
+    color: #D01257;
+    margin-top: 20px;
+}
+.intern p,h2,h3{
+    margin-top: 30px;
+}
+.projects{
+    text-align: center;
+    margin-top: 10px;
+}
+.projects h1{
+    color: white;
+}
+.pro1{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 16px;
+}
+.pro2{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 16px;
+
+}
+.pro3{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 16px;
+}
+.pro4{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 16px;
+}
+.projectbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+   
+}
+.projects p,button{
+    margin-top: 10px;
+}
+.viewbyt:hover{
+    cursor: pointer;
+}
+.lan{
+    color:#D01257;
+    background-color: #383b6c;
+    padding: 3px;
+    margin-left: 5px;
+    border: none;
+}
+.viewbyt{
+    border: 2px solid #D01257;
+    background-color :#D01257;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+}
+.popup-overlay{
+       background-color: black;
+       opacity: 0.8;
+       position: absolute;
+       width: 100%;
+       height:1000%;
+       z-index: 1;
+       display: none;
+       top: 0px;
+    }
+.popup-box{
+    position: absolute;
+    z-index: 3;
+    background-color:#D01257;
+    color: white;
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    top: 326%;
+    left: 35%;
+    text-align: center;
+    display:none;
+}
+.viewsourcebyt{
+    background-color: #0F1021;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left:25px;
+}
+.cancelbyt{
+    background-color: #0F1021;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    bottom: 420px;
+ left:85px;
+
+}
+.popup-overlay2{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height:1000%;
+    z-index: 1;
+    display: none;
+    top: 0px;
+ }
+.popup-box2{
+ position: absolute;
+ z-index: 3;
+ background-color:#D01257;
+ color: white;
+ display: inline-block;
+ width: 30%;
+ padding: 20px;
+ top: 326%;
+ left: 35%;
+ text-align: center;
+ display:none;
+}
+.viewsourcebyt2{
+ background-color: #0F1021;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ font-size: 15px;
+ padding: 10px;
+ position: relative;
+ left:25px;
+}
+.cancelbyt2{
+ background-color: #0F1021;
+ color: white;
+ border: none;
+ border-radius: 100%;
+ font-size: 15px;
+ padding: 10px;
+ position: relative;
+ bottom: 420px;
+ left:85px;
+
+}
+.popup-overlay3{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height:1000%;
+    z-index: 1;
+    display: none;
+    top: 0px;
+ }
+.popup-box3{
+ position: absolute;
+ z-index: 3;
+ background-color:#D01257;
+ color: white;
+ display: inline-block;
+ width: 30%;
+ padding: 20px;
+ top: 326%;
+ left: 35%;
+ text-align: center;
+ display:none;
+}
+.viewsourcebyt3{
+ background-color: #0F1021;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ font-size: 15px;
+ padding: 10px;
+ position: relative;
+ left:25px;
+}
+.cancelbyt3{
+ background-color: #0F1021;
+ color: white;
+ border: none;
+ border-radius: 100%;
+ font-size: 15px;
+ padding: 10px;
+ position: relative;
+ bottom: 420px;
+ left:85px;
+
+}
+.popup-overlay4{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height:1000%;
+    z-index: 1;
+    display: none;
+    top: 0px;
+ }
+.popup-box4{
+ position: absolute;
+ z-index: 3;
+ background-color:#D01257;
+ color: white;
+ display: inline-block;
+ width: 30%;
+ padding: 20px;
+ top: 326%;
+ left: 35%;
+ text-align: center;
+ display:none;
+}
+.viewsourcebyt4{
+ background-color: #0F1021;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ font-size: 15px;
+ padding: 10px;
+ position: relative;
+ left:25px;
+}
+.cancelbyt4{
+ background-color: #0F1021;
+ color: white;
+ border: none;
+ border-radius: 100%;
+ font-size: 15px;
+ padding: 10px;
+ position: relative;
+ bottom: 420px;
+ left:85px;
+
+}
+.certificationsbox{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.cer1,.cer2,.cer3,.cer4,.cer5,.cer6,.cer7,.cer8,.cer9,.cer10,.cer11,.cer12{
+    flex-basis: 20%;
+    padding: 20px;
+}
+.certifications{
+    margin-top: 40px;
+    text-align: center;
+}
+.certifications h1{
+    color: white;
+}
+.educations{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    
+}
+.educations h1,h4{
+    color:white;
+}
+.educations p{
+    margin-bottom: 20px;
+}
+.educations h5{
+    margin-top: 10px;
+    color: #D01257;
+    font-size: 16px;
+}
+.timeline{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content1,.content2,.content3{
+             flex-basis: 20%;
+             border: 2px solid #D01257;
+             border-radius: 10px;
+             padding: 30px;
+}
+.contactme h1,h2{
+    color: white;
+}
+.contactme{
+    text-align: center;
+    margin-top: 50px;
+}
+form{
+    margin-top: 10px;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    bottom:70px;
+}
+form input,textarea{
+    margin-top: 10px;
+    background-color: black;
+    border: 2px solid white;
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+}
+form button{
+    border: none;
+    padding:10px;
+    background-color: #D01257;
+    color: white;
+    font-size: 20px;
+    width: 74%;
+}
+.footer{
+    background-color: black;
+    color:white;
+    margin-top: 50px;
+    padding: 60px;
+    text-align: center;
+
+}
+.navbarfooter1{
+    background-color: black;
+    height: 60px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.navbarfooter1 ul,li,h1{
+  display: inline;
+}
+.navbarfooter1 ul{
+  margin-left: 10px;
+}
+.navbarfooter1 li{
+  padding-left: 15px;
+}
+.navbarfooter1  nav h1{
+  padding-left: 8px;
+}
+.navbarfooter2{
+    background-color: black;
+    height: 60px;
+    padding-top: 30px;
+    position: relative;
+    bottom: 20px;
+
+}
+.navbarfooter2 ul,li,h1{
+  display: inline;
+}
+.navbarfooter2 ul{
+  margin-left: 10px;
+}
+.navbarfooter2 li{
+  padding-left: 15px;
+}
+.navbarfooter2  nav h1{
+  padding-left: 8px;
+}
+.contactme p{
+    margin-bottom: 100px;
+}
